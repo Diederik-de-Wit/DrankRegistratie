@@ -1,0 +1,18 @@
+﻿<Window x:Class="Drankregistratie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Drankregistratie"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="manuel-cordero-3Hx62YqnkOk-unsplash.jpg"/>
+        </Grid.Background>
+        <Button x:Name="drank" Content="Klik voor Drank!" HorizontalAlignment="Left" Margin="340,167,0,0" VerticalAlignment="Top" Width="144" Click="Button_Click" Height="84" Background="#FFFFC26A"/>
+        <Grid x:Name="drankG" HorizontalAlignment="Left" Height="329" Margin="10,80,0,0" VerticalAlignment="Top" Width="772"/>
+        <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="49" Width="450" FontSize="36" FontWeight="Bold" TextAlignment="Center" Background="#7F787878" Foreground="#FF2B2B2B"><Run Text="Slijterij"/><Run Text=" het Hert"/></TextBlock>
+
+    </Grid>
+</Window>

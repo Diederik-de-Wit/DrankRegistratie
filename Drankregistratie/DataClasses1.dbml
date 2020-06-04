@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="restaurantdb" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-63LF7LCT\SQLEXPRESS;Initial Catalog=restaurantdb;Integrated Security=True" SettingsObjectName="Drankregistratie.Properties.Settings" SettingsPropertyName="restaurantdbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.dranken" Member="drankens">
+    <Type Name="dranken">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NAAM" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SOORT" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PRIJS" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
